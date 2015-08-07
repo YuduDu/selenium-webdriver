@@ -15,4 +15,7 @@
 
 	inputbox = driver.find_element_by_id("passwd-id")
 	inputbox = driver.find_element_by_name("passwd")
+	inputbox = driver.find_element_by_xpath("//input[@id='passwd-id']") # If there's more than one element that matches the query, then only the first will be returned. If nothing can be found, a **NoSuchElementException** will be raised.
 	
+###填写表格
+下拉框选择
